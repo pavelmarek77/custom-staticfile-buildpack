@@ -23,4 +23,4 @@ dependencies:
     uri: https://s3-us-west-2.amazonaws.com/pavelmarek/nginx.tgz
     cf_stacks:
       - cflinuxfs2
-    md5: 4871d90bde6c7ad0cbf508d6ed03807a
+    md5: 038dcf5a343a440b30c04311097eb115
