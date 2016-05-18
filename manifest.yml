@@ -1,0 +1,26 @@
+---
+language: staticfile
+
+exclude_files:
+  - .git/
+  - .gitignore
+  - .gitmodules
+  - .rspec
+  - cf_spec/
+  - log/
+  - test/
+  - buildpack-packager/
+  - staticfile_buildpack-*v*.zip
+
+url_to_dependency_map:
+  - match: nginx.tgz
+    name: nginx
+    version: 1.9.15
+
+dependencies:
+  - name: nginx
+    version: 1.9.15
+    uri: https://s3-us-west-2.amazonaws.com/pavelmarek/nginx.tgz
+    cf_stacks:
+      - cflinuxfs2
+    md5: 4871d90bde6c7ad0cbf508d6ed03807a
