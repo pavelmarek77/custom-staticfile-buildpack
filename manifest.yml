@@ -20,7 +20,7 @@ url_to_dependency_map:
 dependencies:
   - name: nginx
     version: 1.9.15
-    uri: https://s3-us-west-2.amazonaws.com/pavelmarek/nginx2.tgz
+    uri: https://s3-us-west-2.amazonaws.com/pavelmarek/nginx_lua.tgz
     cf_stacks:
       - cflinuxfs2
-    md5: 1acf11fe5b63898c121aa5e31bff784d
+    md5: 7437f1f6b824c5d4bb7187641ac86101
